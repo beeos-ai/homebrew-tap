@@ -8,22 +8,22 @@ class Bma < Formula
   on_macos do
     on_arm do
       url "https://github.com/beeos-ai/bma-executor-sdk/releases/download/v1.12.2/bma-darwin-arm64.tar.gz"
-      sha256 "2508d2e0ac93d8fa20b5935baba4d97e847c20452a27ac1619023f7928667b93"
+      sha256 "72bec6623a7683e713cf67fc8740ef92f9a0174af80bca117810b5cfa07f0b6d"
     end
     on_intel do
       url "https://github.com/beeos-ai/bma-executor-sdk/releases/download/v1.12.2/bma-darwin-amd64.tar.gz"
-      sha256 "aa69be76bb148f3a0b37ec4983da8d12f8700523d5f834db656dddf2f19ea58b"
+      sha256 "d8119588a7a9f18894b852ee768b6773096d5947f211a404c72bff8639caa0f3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/beeos-ai/bma-executor-sdk/releases/download/v1.12.2/bma-linux-arm64.tar.gz"
-      sha256 "ac185966fd7fb5e177053ac658ed210c131532025520c62e7a91f2ffc848b0e5"
+      sha256 "9932973ff3bbd62a9e3627404946a4043d9e7ce6fe282b0fb94dd70b64600e97"
     end
     on_intel do
       url "https://github.com/beeos-ai/bma-executor-sdk/releases/download/v1.12.2/bma-linux-amd64.tar.gz"
-      sha256 "70a82acf61da22b1b80dd1e34b46947518b73a9b4950c6a46fbbc6c4b015b337"
+      sha256 "177c5d70c18ad2e453e42ab22b813ebf69c90c1116db7c8544ad102e1d4db3f2"
     end
   end
 
